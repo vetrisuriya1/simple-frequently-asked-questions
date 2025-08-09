@@ -5,7 +5,7 @@
 
 ## Overview
 
-![screenshot](./thumbnail.jpg)
+![screenshot](./screenshot.png)
 
 
 ### Built with
