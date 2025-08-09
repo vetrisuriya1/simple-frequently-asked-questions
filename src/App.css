@@ -1,0 +1,75 @@
+#root {
+	width: 100%;
+	height: auto;
+}
+
+
+.top__bar {
+	background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.top__bar .top__bar__inner {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0px;
+}
+.top__bar .top__bar__inner h1 {
+	font-size: 2.8em;
+	margin: 0;
+	text-align: center;
+}
+.top__bar .top__bar__inner p {
+	text-align: center;
+}
+.main__bar .content__bar {
+	background-color: #f9fafc;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main__bar .content__bar .faq__items {
+	width: 60%;
+}
+.main__bar .content__bar .faq__items .faq__item {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.main__bar .content__bar .faq__items .faq__item:first-child {
+	padding-top: unset;
+}
+.main__bar .content__bar .faq__items .faq__item:last-child {
+	border-bottom: unset;
+	padding-bottom: unset;
+}
+.main__bar .content__bar .faq__items .faq__item ul, .main__bar .content__bar .faq__items .faq__item ol {
+	display: flex;
+	flex-direction: column;
+	row-gap: 7px;
+}
+
+@media screen and (max-width: 1280px) {
+	.top__bar .top__bar__inner {
+		width: 75%;
+	}
+	.main__bar .content__bar .faq__items {
+		width: 75%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.top__bar .top__bar__inner h1 {
+		font-size: 2.2em;
+	}
+	.top__bar .top__bar__inner {
+		width: 90%;
+	}
+	.main__bar .content__bar .faq__items {
+		width: 90%;
+	}
+}
